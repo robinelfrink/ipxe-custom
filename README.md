@@ -9,7 +9,7 @@ $ git clone https://github.com/robinelfrink/ipxe-custom.git
 $ cd ipxe-custom
 $ git submodule update --init
 $ cd ipxe/src
-$ . ../../config
+$ cp ../../general.h config/local/
 $ make bin/ipxe.lkrn
 ```
 
